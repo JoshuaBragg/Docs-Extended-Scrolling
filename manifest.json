@@ -1,0 +1,19 @@
+{
+	"name": "Docs Extended Scrolling",
+	"version": "1.0",
+	"description": "Adds additional scroll height below last page of Google Docs",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"tabs",
+		"http://*/",
+        "https://*/"
+    ],
+	"icons": {
+		"16": "assets/des.logo.16.png",
+		"48": "assets/des.logo.48.png",
+		"128": "assets/des.logo.128.png"
+	},
+	"manifest_version": 2
+}
