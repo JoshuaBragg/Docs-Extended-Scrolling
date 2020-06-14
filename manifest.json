@@ -7,8 +7,7 @@
 	},
 	"permissions": [
 		"tabs",
-		"http://*/",
-        "https://*/"
+        "https://docs.google.com/"
     ],
 	"icons": {
 		"16": "assets/des.logo.16.png",
