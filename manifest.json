@@ -1,6 +1,6 @@
 {
 	"name": "Docs Extended Scrolling",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Adds additional scroll height below last page of Google Docs",
 	"background": {
 		"scripts": ["background.js"]

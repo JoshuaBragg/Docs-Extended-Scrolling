@@ -1,9 +1,7 @@
-let pageContainer = document.querySelectorAll('.kix-paginateddocumentplugin-background')
+const pageContainer = document.querySelector('.kix-paginateddocumentplugin')
 
-if (pageContainer.length > 1) {
-	console.warn('Multiple page containers found. Ignoring all but the first')
-} else if (!pageContainer.length) {
-	console.error('No page container found!')
+if (pageContainer) {
+	pageContainer.style.paddingBottom = '90vh'
 } else {
-	pageContainer[0].style.paddingBottom = '90vh'
+	console.error('Docs Extended Scrolling: Page container not found!')
 }
