@@ -1,4 +1,4 @@
-const pageContainer = document.querySelector('.kix-paginateddocumentplugin')
+const pageContainer = document.querySelector('.kix-rotatingtilemanager')
 
 if (pageContainer) {
 	pageContainer.style.paddingBottom = '90vh'
